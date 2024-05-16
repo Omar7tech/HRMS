@@ -78,7 +78,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contact
 
-For questions or support, contact omar.7tech|@gmail.com.
+For questions or support, contact omar.7tech@gmail.com.
 
 <h1>Hosted Demo at ( infinityFree ): <a href="http://hrms7.000.pe" target="_blank">visit</a></h1>
 
