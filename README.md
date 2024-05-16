@@ -1,5 +1,88 @@
-Hosted Demo at ( infinityFree ): <a href="http://hrms7.000.pe" target="_blank">visit</a>
+HRMS Application
+Overview
 
+The HRMS (Human Resource Management System) is a Laravel-based application designed to manage employees, trainees, schedules, positions, interviews, and vacations within an organization. It features multi-role authentication, detailed analytics, and comprehensive management tools.
+Features
+
+    Multi-role Authentication: Admin and Moderator roles
+    Employee Management: CRUD operations, CV, and image management
+    Schedule Management: Working schedules, interview scheduling, and vacations
+    Position Management: CRUD operations and assignment to employees
+    Statistics and Analytics: Performance metrics and visualizations using Charts.js
+    User Management: Moderators can activate/deactivate admin accounts
+
+Installation
+Prerequisites
+
+    PHP >= 7.4
+    Laravel >= 8.x
+    MySQL
+    Composer
+    Node.js
+
+
+Admin Dashboard
+
+Admins can manage employees, trainees, schedules, positions, interviews, and vacations. They have access to detailed statistics and performance metrics.
+Moderator Dashboard
+
+Moderators can activate or deactivate admin accounts and manage their own profiles.
+Database Schema
+
+Key tables and their relationships:
+
+    employees: Manages employee data, references positions and schedules
+    interviews: Manages interview schedules, references users
+    positions: Manages job positions
+    schedules: Manages work schedules
+    users: Stores user data with roles and permissions
+    vacations: Manages employee vacations, references employees
+
+API Endpoints
+
+    Authentication
+        POST /api/login
+        POST /api/logout
+    Employees
+        GET /api/employees
+        POST /api/employees
+        PUT /api/employees/{id}
+        DELETE /api/employees/{id}
+    Positions
+        GET /api/positions
+        POST /api/positions
+        PUT /api/positions/{id}
+        DELETE /api/positions/{id}
+
+Frontend
+
+    Uses Bootstrap for responsive design and jQuery for AJAX requests.
+    Blade templates for dynamic views.
+
+Security
+
+    Ensure correct configuration of environment variables.
+    Regularly update dependencies to address security vulnerabilities.
+    Use Laravel's validation and sanitation mechanisms.
+
+Contribution
+
+    Fork the repository
+    Create a new branch (git checkout -b feature/your-feature)
+    Commit your changes (git commit -am 'Add some feature')
+    Push to the branch (git push origin feature/your-feature)
+    Create a new Pull Request
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+Contact
+
+For questions or support, contact omar.7tech|@gmail.com.
+
+<h1>Hosted Demo at ( infinityFree ): <a href="http://hrms7.000.pe" target="_blank">visit</a></h1>
+
+<hr/>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
