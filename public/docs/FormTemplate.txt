@@ -1,0 +1,17 @@
+@include('components.private.header')
+@include('components.private.sidebar')
+<section class="home-section" style="margin-bottom: 500px">
+    <div class="home-content">
+        <i class='bx bx-menu'></i>
+        <span class="text"> //Page Title </span>
+    </div>
+    <div class="mycontent">
+
+        <div class="container-sm mt-5">
+
+        </div>
+    </div>
+</section>
+
+
+@include('components.private.footer')
