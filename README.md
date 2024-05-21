@@ -17,11 +17,11 @@ The HRMS (Human Resource Management System) is a Laravel-based application desig
 
 ### Prerequisites
 
-- PHP >= 7.4
-- Laravel >= 8.x
-- MySQL
-- Composer
-- Node.js
+- ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) PHP >= 7.4
+- ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) Laravel >= 8.x
+- ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) MySQL
+- ![Composer](https://img.shields.io/badge/Composer-885630?style=flat&logo=composer&logoColor=white) Composer
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node-dot-js&logoColor=white) Node.js
 
 ### Setup
 
@@ -86,10 +86,18 @@ Key tables and their relationships:
 - `PUT /api/positions/{id}`
 - `DELETE /api/positions/{id}`
 
+
 ## Frontend
 
-- Uses Bootstrap for responsive design and jQuery for AJAX requests.
-- Blade templates for dynamic views.
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white) Uses Bootstrap for responsive design
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) CSS for styling
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) JavaScript for dynamic functionality
+- ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white) jQuery for AJAX requests
+- ![AJAX](https://img.shields.io/badge/AJAX-0769AD?style=flat&logo=ajax&logoColor=white) AJAX for asynchronous operations
+- ![Blade](https://img.shields.io/badge/Blade-FF2D20?style=flat&logo=laravel&logoColor=white) Blade templates for dynamic views
+- ![Chart.js](https://img.shields.io/badge/Chart.js-F37826?style=flat&logo=chart-dot-js&logoColor=white) Charts.js for data visualizations
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) HTML for markup
+
 
 ## Security
 
