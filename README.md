@@ -1,9 +1,6 @@
-# HRMS Application
-## Screenshots
-
-![Screenshot 1](screenshots/Employees.png)
-
-
+<h1>HRMS🥇</h1>
+  <img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+  
 ## Overview
 
 The HRMS (Human Resource Management System) is a Laravel-based application designed to manage employees, trainees, schedules, positions, interviews, and vacations within an organization. It features multi-role authentication, detailed analytics, and comprehensive management tools.
@@ -16,6 +13,12 @@ The HRMS (Human Resource Management System) is a Laravel-based application desig
 - **Position Management:** CRUD operations and assignment to employees
 - **Statistics and Analytics:** Performance metrics and visualizations using Charts.js
 - **User Management:** Moderators can activate/deactivate admin accounts
+
+## Screenshots
+<img src="https://github.com/Omar7tech/screenshots/blob/main/Employees.PNG" alt="Screenshot 1" width="400">
+<img src="https://github.com/Omar7tech/screenshots/blob/main/Homescreenshot.PNG" alt="Screenshot 2" width="400">
+
+
 
 ## Installation
 
