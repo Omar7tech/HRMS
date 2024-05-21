@@ -1,4 +1,8 @@
 # HRMS Application
+## Screenshots
+
+![Screenshot 1](screenshots/Employees.png)
+
 
 ## Overview
 
