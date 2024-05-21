@@ -1,84 +1,124 @@
-HRMS Application
-Overview
+# HRMS Application
+
+## Overview
 
 The HRMS (Human Resource Management System) is a Laravel-based application designed to manage employees, trainees, schedules, positions, interviews, and vacations within an organization. It features multi-role authentication, detailed analytics, and comprehensive management tools.
-Features
 
-    Multi-role Authentication: Admin and Moderator roles
-    Employee Management: CRUD operations, CV, and image management
-    Schedule Management: Working schedules, interview scheduling, and vacations
-    Position Management: CRUD operations and assignment to employees
-    Statistics and Analytics: Performance metrics and visualizations using Charts.js
-    User Management: Moderators can activate/deactivate admin accounts
+## Features
 
-Installation
-Prerequisites
+- **Multi-role Authentication:** Admin and Moderator roles
+- **Employee Management:** CRUD operations, CV, and image management
+- **Schedule Management:** Working schedules, interview scheduling, and vacations
+- **Position Management:** CRUD operations and assignment to employees
+- **Statistics and Analytics:** Performance metrics and visualizations using Charts.js
+- **User Management:** Moderators can activate/deactivate admin accounts
 
-    PHP >= 7.4
-    Laravel >= 8.x
-    MySQL
-    Composer
-    Node.js
+## Installation
 
+### Prerequisites
 
-Admin Dashboard
+- PHP >= 7.4
+- Laravel >= 8.x
+- MySQL
+- Composer
+- Node.js
+
+### Setup
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/hrms.git
+    cd hrms
+    ```
+2. Install dependencies:
+    ```sh
+    composer install
+    npm install
+    npm run dev
+    ```
+3. Setup environment variables:
+    ```sh
+    cp .env.example .env
+    php artisan key:generate
+    ```
+4. Migrate the database:
+    ```sh
+    php artisan migrate
+    ```
+
+## Admin Dashboard
 
 Admins can manage employees, trainees, schedules, positions, interviews, and vacations. They have access to detailed statistics and performance metrics.
-Moderator Dashboard
+
+## Moderator Dashboard
 
 Moderators can activate or deactivate admin accounts and manage their own profiles.
-Database Schema
+
+## Database Schema
 
 Key tables and their relationships:
 
-    employees: Manages employee data, references positions and schedules
-    interviews: Manages interview schedules, references users
-    positions: Manages job positions
-    schedules: Manages work schedules
-    users: Stores user data with roles and permissions
-    vacations: Manages employee vacations, references employees
+- `employees`: Manages employee data, references positions and schedules
+- `interviews`: Manages interview schedules, references users
+- `positions`: Manages job positions
+- `schedules`: Manages work schedules
+- `users`: Stores user data with roles and permissions
+- `vacations`: Manages employee vacations, references employees
 
-API Endpoints
+## API Endpoints
 
-    Authentication
-        POST /api/login
-        POST /api/logout
-    Employees
-        GET /api/employees
-        POST /api/employees
-        PUT /api/employees/{id}
-        DELETE /api/employees/{id}
-    Positions
-        GET /api/positions
-        POST /api/positions
-        PUT /api/positions/{id}
-        DELETE /api/positions/{id}
+### Authentication
 
-Frontend
+- `POST /api/login`
+- `POST /api/logout`
 
-    Uses Bootstrap for responsive design and jQuery for AJAX requests.
-    Blade templates for dynamic views.
+### Employees
 
-Security
+- `GET /api/employees`
+- `POST /api/employees`
+- `PUT /api/employees/{id}`
+- `DELETE /api/employees/{id}`
 
-    Ensure correct configuration of environment variables.
-    Regularly update dependencies to address security vulnerabilities.
-    Use Laravel's validation and sanitation mechanisms.
+### Positions
 
-Contribution
+- `GET /api/positions`
+- `POST /api/positions`
+- `PUT /api/positions/{id}`
+- `DELETE /api/positions/{id}`
 
-    Fork the repository
-    Create a new branch (git checkout -b feature/your-feature)
-    Commit your changes (git commit -am 'Add some feature')
-    Push to the branch (git push origin feature/your-feature)
-    Create a new Pull Request
+## Frontend
 
-License
+- Uses Bootstrap for responsive design and jQuery for AJAX requests.
+- Blade templates for dynamic views.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
+## Security
 
-For questions or support, contact omar.7tech@gmail.com.
+- Ensure correct configuration of environment variables.
+- Regularly update dependencies to address security vulnerabilities.
+- Use Laravel's validation and sanitation mechanisms.
+
+## Contribution
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or support, contact [omar.7tech@gmail.com](mailto:omar.7tech@gmail.com).
+
+## Live Demo
+
+Check out the live demo: [HRMS Live Demo](http://hrms7.000.pe)
+
+
+
 
 
 <hr/>
