@@ -27,7 +27,7 @@ The HRMS (Human Resource Management System) is a Laravel-based application desig
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/hrms.git
+    git clone https://github.com/Omar7tech/hrms.git
     cd hrms
     ```
 2. Install dependencies:
